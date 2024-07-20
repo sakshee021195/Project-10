@@ -1,2 +1,2 @@
 # Project-10
-Project is about color flipper.i have used three buttons to change color of body accordignly and also change text as per color.
+The project is about color flippers. I  have used three buttons to change the body's color accordignly and text as per color.
