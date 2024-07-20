@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Flipper Project</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: aquamarine;
+        }
+        nav{
+            background-color: aqua;
+            text-align: center;
+        }
+        #color{
+            text-align: center;
+            background-color: aquamarine;
+            color: rgb(4, 81, 143);
+        }
+       nav button{
+            padding: 20PX;
+            background-color: aqua;
+            border: none;
+            font-size: 20px;
+            color: rgb(93, 13, 197);
+        }
+        #container{
+            text-align: center;
+            background-color: rgba(170, 60, 60, 0.295);
+            width: 100%;
+            height: 88.8vh;
+            display: block;
+        }
+       #h1_text{
+        color: rgb(12, 11, 11);
+        border: 2px solid rgb(10, 9, 9);
+        border-radius: 30px;
+        width: 300px;
+        margin: auto;
+        background-color: aqua;
+       }
+       #click{
+        background-color:aqua;
+        font-size: 20px;
+        font-weight: 900;
+        border: 1px solid rgb(8, 8, 8);
+        border-radius: 20px;
+        padding: 20px;
+       }
+    </style>
+</head>
+
+<body>
+    <h1 id="color">Color Flipper</h1>
+    <nav>
+        <button type="button" id="color_flipper" onclick="color_page()">Color Flipper</button>
+        <button type="button" id="simple_click" onclick="simple_page()">Simple</button>
+        <button type="button" id="hex_click" onclick="hex_page()">Hex</button>
+    </nav>
+    <div  id="container">
+        <h1 id="h1_text">Hello World</h1>
+        <button type="button" onclick="main_function()" id="click">Click Here To Change the BG</button>
+
+    </div>
+    
+
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
